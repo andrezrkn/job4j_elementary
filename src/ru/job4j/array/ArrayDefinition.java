@@ -12,9 +12,9 @@ public class ArrayDefinition {
         names[2] = "Korobeinikov Stas";
         names[3] = "Sergey Mayer";
 
-        System.out.println("Petr Arsentev");
-        System.out.println("Andre Tsarukyan");
-        System.out.println("Korobeinikov Stas");
-        System.out.println("Sergey Mayer");
+        System.out.println(names[0]);
+        System.out.println(names[1]);
+        System.out.println(names[2]);
+        System.out.println(names[3]);
     }
 }
