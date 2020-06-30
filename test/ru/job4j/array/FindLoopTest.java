@@ -8,6 +8,7 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHas5Then0() {
+
         int value = 5;
         int[] input = {5, 4, 3};
         int result = FindLoop.indexOf(input, value);
