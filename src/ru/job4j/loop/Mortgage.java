@@ -6,7 +6,6 @@ public class Mortgage {
         double amt = amount;
         double slr = salary;
         percent = percent / 100;
-
         while (amt > 0) {
             amt  = amt + amt * percent;
             amt = amt - salary;

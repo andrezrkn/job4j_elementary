@@ -8,6 +8,5 @@ public class Greeting {
         idea = idea + " But i am a newbie. ";
         idea = idea + year;
         System.out.println(idea);
-
     }
 }

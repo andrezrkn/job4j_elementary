@@ -11,7 +11,6 @@ public class Triangle {
         double ac = 5;
         double bc = 6;
         boolean exist = Triangle.exist(ab, ac, bc);
-
         if (exist) {
             System.out.println("Triangle exist");
         } else {
