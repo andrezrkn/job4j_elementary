@@ -9,14 +9,14 @@ public class MathCalculator {
     }
 
     public static double substractAndSeparation(double first, double second) {
-        return substraction(10, 20)
-                - separation(10, 20);
+        return substraction(first, second)
+                + separation(first, second);
     }
 
     public static double fourInOne(double first, double second) {
-        return substraction(10, 20)
-                + separation(10, 20)
-                + sumAndMultiply(10, 20);
+        return substraction(first, second)
+                + separation(first, second)
+                + sumAndMultiply(first, second);
     }
 
     public static void main(String[] args) {
