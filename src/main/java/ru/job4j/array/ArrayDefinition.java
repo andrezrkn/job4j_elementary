@@ -14,5 +14,8 @@ public class ArrayDefinition {
         System.out.println(names[1]);
         System.out.println(names[2]);
         System.out.println(names[3]);
+        System.out.println("mass ages size: " + ages.length);
+        System.out.println("mass surnames size:" + surnames.length);
+        System.out.println("mass prices size:" + prices.length);
     }
 }
